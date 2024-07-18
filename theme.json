@@ -1,7 +1,7 @@
 {
-    "id": "nodebb-theme-quickstart",
-    "name": "My Theme Name",
-    "description": "Enter a description here",
-    "url": "https://github.com/nodebb/nodebb-theme-quickstart",
-    "baseTheme": "nodebb-theme-harmony"
+  "id": "nodebb-theme-cfi-default",
+  "name": "CFI Default Theme",
+  "description": "NodeBB default theme for CFI",
+  "url": "https://github.com/rofinouv/nodebb-theme-cfi-default",
+  "baseTheme": "nodebb-theme-harmony"
 }
