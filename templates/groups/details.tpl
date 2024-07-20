@@ -36,11 +36,14 @@
 		</div>
 	</div>
 
-	<div class="d-flex flex-column flex-md-row">
+	<div class="d-flex flex-column">
 		<div data-widget-area="left">
 			{{{each widgets.left}}}
 			{{widgets.left.html}}
 			{{{end}}}
+		</div>
+		<div>
+		{{{ group }}}
 		</div>
 		<!-- IMPORT partials/groups/sidebar-left.tpl -->
 
