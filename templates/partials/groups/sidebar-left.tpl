@@ -3,10 +3,9 @@
 		<button data-bs-toggle="tab" data-bs-target="#groups-posts" class="btn-ghost ff-secondary fw-semibold {{{ if template.groups/details }}}active{{{ end }}}">
 			<div class="flex-grow-1">Home</div>
 		</button>
-        <button data-bs-toggle="tab" data-bs-target="#groups-members" class="btn-ghost ff-secondary fw-semibold">
-			<div class="flex-grow-1">Chat</div>
+        <button data-bs-toggle="tab" class="btn-ghost ff-secondary fw-semibold">
+			<a href="{relative_path}/user/{user.userslug}/chats{{{ if user.lastRoomId }}}/{user.lastRoomId}{{{ end }}}" class="flex-grow-1">Chat</a>
 		</button>
-        <code>{{{ privileges }}}</code>
 		<button data-bs-toggle="tab" data-bs-target="#groups-members" class="btn-ghost ff-secondary fw-semibold">
 			<div class="flex-grow-1">[[groups:members]]</div>
 		</button>
