@@ -6,7 +6,7 @@
         <button data-bs-toggle="tab" data-bs-target="#groups-members" class="btn-ghost ff-secondary fw-semibold">
 			<div class="flex-grow-1">Chat</div>
 		</button>
-        <code>{{{ user }}}</code>
+        <code>{{{ privileges }}}</code>
 		<button data-bs-toggle="tab" data-bs-target="#groups-members" class="btn-ghost ff-secondary fw-semibold">
 			<div class="flex-grow-1">[[groups:members]]</div>
 		</button>
@@ -14,11 +14,11 @@
 
 		{{{ if group.isOwner }}}
 		<button data-bs-toggle="tab" data-bs-target="#groups-pending" class="btn-ghost ff-secondary fw-semibold">
-			<div class="flex-grow-1">[[groups:details.pending]]</div>
+			<div class="flex-grow-1">Pending</div>
 		</button>
 
 		<button data-bs-toggle="tab" data-bs-target="#groups-invited" class="btn-ghost ff-secondary fw-semibold">
-			<div class="flex-grow-1">[[groups:details.invited]]</div>
+			<div class="flex-grow-1">Invited</div>
 		</button>
 
 		<button data-bs-toggle="tab" data-bs-target="#groups-admin" class="btn-ghost ff-secondary fw-semibold">
