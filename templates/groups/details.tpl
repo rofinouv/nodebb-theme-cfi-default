@@ -43,7 +43,6 @@
 			{{{end}}}
 		</div>
 		<div>
-		{{{ group }}}
 		</div>
 		<!-- IMPORT partials/groups/sidebar-left.tpl -->
 
