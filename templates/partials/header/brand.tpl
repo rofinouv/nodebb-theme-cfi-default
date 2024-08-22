@@ -1,5 +1,5 @@
 {{{ if (brand:logo || config.showSiteTitle)}}}
-<div id="header-nav-container">
+<div id="header-nav-container" style="background:#001231!important;">
 	<div class="container" id="navbar-container" style="position:relative;">
 		<nav class="navbar navbar-expand-lg navbar-dark shadow-sm" id="navbar">
 			{{{ if brand:logo }}}
