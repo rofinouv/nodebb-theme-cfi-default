@@ -40,6 +40,12 @@
 				{{{end}}}
 			</div>
 			{{{ end }}}
+
+			{{{ if config.loggedIn }}}
+			<p>authenticated</p>
+			{{{ else }}}
+			<p>not authenticated</p>
+			{{{ end }}}
 		</nav>
 	</div>
 </div>
